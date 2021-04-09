@@ -42,3 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+input:focus {
+	outline: none;
+	border-color: var(--yellow);
+	border: 1px solid var(--yellow);
+  }
